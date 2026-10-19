@@ -1,0 +1,28 @@
+{
+  "name": "retry-replan-controller",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Bounded state machine for agent recovery, retries, and evidence-backed FINISH.",
+  "main": "retry-replan-controller.js",
+  "exports": {
+    ".": "./retry-replan-controller.js"
+  },
+  "files": [
+    "retry-replan-controller.js",
+    "dod-contract.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "retry-replan-controller"
+  ],
+  "license": "MIT"
+}
